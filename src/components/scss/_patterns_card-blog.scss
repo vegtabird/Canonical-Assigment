@@ -1,0 +1,27 @@
+@mixin p-card--blog {
+    .p-card--blog {
+        @extend %p-card--highlighted;
+        display: flex;
+        flex-direction: column;
+        padding: 0 $spv--large;
+        border-top: 3px solid #666;
+
+        .p-card__header {
+            border-radius: 2px;
+            padding: $spv--large 0 $spv--small;
+            border-bottom: 0;
+            margin-top: 0px;
+        }
+
+        .p-card__content {
+            border-top: 1px dotted #d9d9d9;
+            padding: $spv--large $spv--small $spv--small;
+            height: 100%;
+        }
+
+        .p-card_footer {
+            border-top: 1px dotted #d9d9d9;
+            padding: $spv--large 0 $spv--small;
+        }
+    }
+}

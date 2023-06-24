@@ -1,0 +1,10 @@
+// import Vanilla and include base mixins
+// this only needs to happen once in a given project
+@import 'node_modules/vanilla-framework';
+@import './components/scss/patterns_card-blog';
+@include vf-base;
+@include vf-p-grid;
+@include vf-p-card;
+@include p-card--blog;
+@include vf-p-headings;
+@include vf-p-muted-heading;
