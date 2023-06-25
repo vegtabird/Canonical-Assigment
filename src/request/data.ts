@@ -56,6 +56,7 @@ export function useGetData() {
                 payload: Array.isArray(res?.data) ? res.data : []
             })
         }).catch(error => {
+            alert('fail to fetch data')
             console.log(error)
         })
     }, [])
