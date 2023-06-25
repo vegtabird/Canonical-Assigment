@@ -20,7 +20,7 @@ export function BlogPostCard({
     return <div className={`p-card--blog ${className || ''}`}>
         {/**card header */}
         <div className='p-card__header'>
-            <h5 className='p-muted-heading'>{headerTitle}</h5>
+            <p className="u-text--muted">{headerTitle}</p>
         </div>
         {/**card content */}
         <div className='p-card__content'>
